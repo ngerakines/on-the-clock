@@ -15,7 +15,7 @@ __END__
         <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
         <style>
 body { text-align: center; margin: 5em 0 0 0; vertical-align: middle; } 
-#content { width: 760px; text-align: left; margin: 0 auto; font-family: 'Cardo', arial, serif; font-size: 250%; }
+#content { width: 760px; text-align: left; margin: 0 auto; font-family: 'Cardo', arial, serif; font-size: 200%; line-height:150% }
         </style>
     </head> 
     <body>
@@ -29,7 +29,7 @@ We raid in the evenings in 2 hour windows that varies from week to week. We use 
         </p><p>
 <strong>Is this really your website?</strong> Yeah, we don't need to swing it around because we know its there. We use Google Wave, needtomeet.com, realmfirst.com, Ventrilo and email to communicate and if you join, you will too.
         </p><p>
-<strong>How do I join?</strong> Hop on Lightbringer, do a /who on the clock and message someone. They'll point you in the right direction.
+<strong>How do I join?</strong> Hop onto Lightbringer, do a `<code>/who on the clock</code>` and ask someone. They'll point you in the right direction.
         </p></div>
     </body> 
 </html> 
