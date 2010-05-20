@@ -14,7 +14,7 @@ __END__
         <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
         <style>
 body { text-align: center; margin: 5em 0 0 0; vertical-align: middle; } 
-#content { width: 760px; text-align: left; margin: 0 auto; }
+#content { width: 760px; text-align: left; margin: 0 auto; font-family: 'Old Standard TT', arial, serif; font-size: 300%; }
         </style>
     </head> 
     <body>
