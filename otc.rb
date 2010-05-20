@@ -27,7 +27,7 @@ body { text-align: center; margin: 5em 0 0 0; vertical-align: middle; }
 <strong>What times do you raid?</strong>
 We raid in the evenings in 2 hour windows that varies from week to week. We use needtomeet.com to determine when is the best time for the most people to raid and adjust our schedules accordingly.
         </p><p>
-<strong>Is this really your website?</strong> Yeah, we don't need to swing it around because we know its there. We use Google Wave, NeedToMeet and email to communicate and if you join, you will too.
+<strong>Is this really your website?</strong> Yeah, we don't need to swing it around because we know its there. We use Google Wave, needtomeet.com, realmfirst.com, Ventrilo and email to communicate and if you join, you will too.
         </p></div>
     </body> 
 </html> 
