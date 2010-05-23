@@ -7,15 +7,31 @@ end
 
 __END__
 @@ index
-
 <html> 
     <head> 
         <title>On The Clock of Lightbringer</title>
-        <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+        <link  href="http://fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type="text/css" />
         <style>
-body { text-align: center; margin: 5em 0 0 0; vertical-align: middle; } 
-#content { width: 760px; text-align: left; margin: 0 auto; font-family: 'Cardo', arial, serif; font-size: 200%; line-height:150% }
+body {
+  text-align: center;
+  margin: 0 0 0 0;
+  vertical-align: middle;
+  font-family: "Cardo", serif;
+  font-size: 34pt;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 1;
+}
+#content {
+  width: 760px;
+  text-align: left;
+  margin: 0 auto;
+}
         </style>
     </head> 
     <body>
