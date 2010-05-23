@@ -14,10 +14,10 @@ __END__
         <style>
 body {
   text-align: center;
-  margin: 0 0 0 0;
+  margin: 1em 0 0 0;
   vertical-align: middle;
   font-family: "Cardo", serif;
-  font-size: 34pt;
+  font-size: 26pt;
   font-style: normal;
   font-weight: 400;
   text-shadow: none;
@@ -30,7 +30,7 @@ body {
 #content {
   width: 760px;
   text-align: left;
-  margin: 0 auto;
+  margin: 1em auto;
 }
         </style>
     </head> 
@@ -45,7 +45,7 @@ We raid in the evenings in 2 hour windows that varies from week to week. We use 
         </p><p>
 <strong>Is this really your website?</strong> Yeah, we don't need to swing it around because we know its there. We use Google Wave, needtomeet.com, realmfirst.com, Ventrilo and email to communicate and if you join, you will too.
         </p><p>
-<strong>How do I join?</strong> Hop onto Lightbringer, do a `<code>/who on the clock</code>` and ask someone. They'll point you in the right direction.
+<strong>How do I join?</strong> Hop onto Lightbringer, do a `<i>/who on the clock</i>` and ask someone. They will point you in the right direction.
         </p></div>
     </body> 
 </html> 
