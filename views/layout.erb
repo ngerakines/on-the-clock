@@ -1,0 +1,43 @@
+<html> 
+    <head> 
+        <title>On The Clock of Lightbringer</title>
+        <link  href="http://fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type="text/css" />
+        <style>
+body {
+  text-align: center;
+  margin: 1em 0 0 0;
+  vertical-align: middle;
+  font-family: "Cardo", serif;
+  font-size: 26pt;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 1.2;
+}
+#content {
+  width: 760px;
+  text-align: left;
+  margin: 1em auto;
+}
+        </style>
+    </head> 
+    <body>
+        <div id="content">
+<%= yield %>
+        </div>
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-660447-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+    </script>
+    </body> 
+</html> 
