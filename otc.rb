@@ -34,10 +34,11 @@ end
 
 post '/apply' do
     name = params[:name]
-    @body = ""
+    @body = "<table>"
     params.each_key do |key|
-        @body << "#{key} = #{params[key]}\n"
+        @body << "<tr><td>#{key}</td><td>#{params[key]}</td></tr>"
     end
+    @body << "</table>"
     send_email("Guild application from #{name}", @body)
     erb :thanks
 end
