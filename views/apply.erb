@@ -1,0 +1,92 @@
+<style>
+.wrapper {
+    padding-bottom: 1.5em;
+}
+.input {
+    position: relative;
+    display: inline-block;
+    height: 2em;
+}
+.input label {
+    display: block;
+    font-size: 0.4em;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 100%;
+}
+/*
+#basics { border-left: 3px solid blue; }
+*/
+</style>
+<form method="post" action="/apply">
+    <div id="basics" class="wrapper">
+    <div class="input">
+        <input type="text" name="character" id="character" style="width: 200px;"/>
+        <label for="character">(Character)</label>
+    </div>
+    is a
+    <div class="input">
+        <input type="text" name="lrc" id="lrc" style="width: 300px;" />
+        <label for="lrc">(Level Race Class)</label>
+    </div>
+    . The current spec is
+    <div class="input">
+        <input type="text" name="spec" id="spec" style="width: 250px;" />
+        <label for="spec">(Primary / Secondary)</label>
+    </div>
+    and I prefer to
+    <div class="input">
+        <input type="text" name="role" id="role" style="width: 200px;" />
+        <label for="role">(Tank, Heal, DPS)</label>
+    </div>
+    . My email address is
+    <div class="input">
+        <input type="text" name="email" id="email" style="width: 400px;" />
+        <label for="email">(email)</label>
+    </div>
+    and I am interested in joining the
+    <div class="input">
+        <input type="text" name="group" id="group" style="width: 150px;" />
+        <label for="group">(10, 25 or PVP)</label>
+    </div>
+    group.</div>
+    <div class="wrapper">I
+    <div class="input">
+        <input type="text" name="vent" id="vent" style="width: 100px;" />
+        <label for="vent">(will, won't)</label>
+    </div> participate in vent and I am
+    <div class="input">
+        <input type="text" name="age" id="age" style="width: 100px;" />
+        <label for="age">(18+)</label>
+    </div> years old.
+    </div>
+    <div class="wrapper">I'm ok with raiding
+    <div class="input">
+        <input type="text" name="raidhours" id="raidhours" style="width: 100px;" />
+        <label for="raidhours">(1-5)</label>
+    </div>
+    hours a night and I
+    <div class="input">
+        <input type="text" name="raidnights" id="raidnights" style="width: 100px;" />
+        <label for="raidnights">(can, can't)</label>
+    </div>
+    raid on both Monday and Wednesday nights.
+    </div>
+    <div class="wrapper">
+    Describe your previous raiding experience:
+    <textarea name="raidxp" cols="80" rows="5"></textarea>
+    </div>
+    <div class="wrapper">
+    Why are you leaving your old guild and why do you want to join ours:
+    <textarea name="why" cols="80" rows="5"></textarea>
+    </div>
+    <div class="wrapper">
+    <input type="submit" value="Apply" />
+    </div>
+</form>
