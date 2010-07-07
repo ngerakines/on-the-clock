@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'sinatra'
+
 require 'pony'
 
 TPMI_SMTP_OPTIONS = {
@@ -15,7 +16,8 @@ def send_email(subject, html_body)
     Pony.mail(:to => 'nick@gerakines.net', :from => 'apply@on-the-clock.us',
         :subject => subject,
         :html_body => html_body,
-        :via => :smtp, :via_options => TPMI_SMTP_OPTIONS)
+        :via => :smtp, :via_options => TPMI_SMTP_OPTIONS
+    )
 end
 
 get '/' do
